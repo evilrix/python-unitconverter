@@ -1,0 +1,101 @@
+#!/usr/bin/env python
+
+'''
+main: example program showing how to use UnitConverter
+'''
+
+# modules
+import unitconverter
+
+# create instance of converter
+converter = unitconverter.Converter()
+
+# convert from a formatted string
+print converter.convert('6 m to yd')
+print converter.convert('6 m to yard')
+print converter.convert('6 m to yards')
+print converter.convert('6 m to in')
+print converter.convert('6 m to inch')
+print converter.convert('6 m to inches')
+
+print converter.convert('6 meter to yd')
+print converter.convert('6 meter to yard')
+print converter.convert('6 meter to yards')
+print converter.convert('6 meter to in')
+print converter.convert('6 meter to inch')
+print converter.convert('6 meter to inches')
+
+print converter.convert('6 metre to yd')
+print converter.convert('6 metre to yard')
+print converter.convert('6 metre to yards')
+print converter.convert('6 metre to in')
+print converter.convert('6 metre to inch')
+print converter.convert('6 metre to inches')
+
+print converter.convert('6 meters to yd')
+print converter.convert('6 meters to yard')
+print converter.convert('6 meters to yards')
+print converter.convert('6 meters to in')
+print converter.convert('6 meters to inch')
+print converter.convert('6 meters to inches')
+
+print converter.convert('6 metres to yd')
+print converter.convert('6 metres to yard')
+print converter.convert('6 metres to yards')
+print converter.convert('6 metres to in')
+print converter.convert('6 metres to inch')
+print converter.convert('6 metres to inches')
+
+print converter.convert('2.5 yd to in')
+print converter.convert('2.5 yd to inch')
+print converter.convert('2.5 yd to inches')
+print converter.convert('2.5 yd to m')
+print converter.convert('2.5 yd to meter')
+print converter.convert('2.5 yd to metre')
+print converter.convert('2.5 yd to meters')
+print converter.convert('2.5 yd to metres')
+
+print converter.convert('2.5 yard to in')
+print converter.convert('2.5 yard to inch')
+print converter.convert('2.5 yard to inches')
+print converter.convert('2.5 yard to m')
+print converter.convert('2.5 yard to meter')
+print converter.convert('2.5 yard to metre')
+print converter.convert('2.5 yard to meters')
+print converter.convert('2.5 yard to metres')
+
+print converter.convert('2.5 yards to in')
+print converter.convert('2.5 yards to inch')
+print converter.convert('2.5 yards to inches')
+print converter.convert('2.5 yards to m')
+print converter.convert('2.5 yards to meter')
+print converter.convert('2.5 yards to metre')
+print converter.convert('2.5 yards to meters')
+print converter.convert('2.5 yards to metres')
+
+print converter.convert('36 in to yd')
+print converter.convert('36 in to yard')
+print converter.convert('36 in to yards')
+print converter.convert('36 in to m')
+print converter.convert('36 in to meter')
+print converter.convert('36 in to metre')
+print converter.convert('36 in to meters')
+print converter.convert('36 in to metres')
+
+print converter.convert('36 inch to yd')
+print converter.convert('36 inch to yard')
+print converter.convert('36 inch to yards')
+print converter.convert('36 inch to m')
+print converter.convert('36 inch to meter')
+print converter.convert('36 inch to metre')
+print converter.convert('36 inch to meters')
+print converter.convert('36 inch to metres')
+
+print converter.convert('36 inches to yd')
+print converter.convert('36 inches to yard')
+print converter.convert('36 inches to yards')
+print converter.convert('36 inches to m')
+print converter.convert('36 inches to meter')
+print converter.convert('36 inches to metre')
+print converter.convert('36 inches to meters')
+print converter.convert('36 inches to metres')
